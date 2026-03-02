@@ -21,7 +21,7 @@ trn = preprocess(train_df)
 tst = preprocess(test_df)
 X, y = trn.drop(columns=['outcome']), trn['outcome']
 
-# 3. Winning Hyperparameters (Optimized for Noise Reduction)
+# 3. Hyperparameters (Optimized for Noise Reduction)
 model = XGBRegressor(
     n_estimators=1500,
     learning_rate=0.015,

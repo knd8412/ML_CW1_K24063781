@@ -9,9 +9,9 @@ This repository contains the implementation for a diamond price prediction task.
 ## Repository Structure
 The project is split into three standalone scripts to demonstrate the model selection process:
 
-1. `linearReg.py`: Baseline implementation using Ordinary Least Squares (OLS) regression.
-2. `randomForest.py`: An ensemble-based approach using 100 decision trees.
-3. `gradientBoost.py`: The final optimized model using **XGBoost** with specialized noise-reduction hyperparameters.
+1. `linearReg.py` [CW1_submission_k24063781_Linear.csv]: Baseline implementation using Ordinary Least Squares (OLS) regression.
+2. `randomForest.py` [CW1_submission_k24063781_RF.csv]: An ensemble-based approach using 100 decision trees.
+3. `gradientBoost.py` [CW1_submission_k24063781.csv]: The final optimized model using **XGBoost** with specialized noise-reduction hyperparameters.
 
 ## Installation
 ```bash
