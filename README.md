@@ -7,6 +7,8 @@
 This repository contains the implementation for a diamond price prediction task. The goal was to develop a robust machine learning pipeline capable of handling non-linear relationships and a high volume of synthetic noise features ($a1-b10$).
 
 ## Repository Structure
+https://github.com/knd8412/ML_CW1_K24063781
+
 The project is split into three standalone scripts to demonstrate the model selection process:
 
 1. `linearReg.py` [CW1_submission_k24063781_Linear.csv]: Baseline implementation using Ordinary Least Squares (OLS) regression.
